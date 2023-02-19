@@ -1,0 +1,293 @@
+/* DWA Themes site created by designwitharifin 2023 */
+
+/*-----------------------------------------
+* Fonts
+ ------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800&display=swap');
+
+/*-----------------------------------------
+* Base Color 
+ ------------------------------------------*/
+:root {
+    --white-color: #ffffff;
+    --primary-color: #335eea;
+    --secondary-color: #e5ebfb;
+    --thin-color: #869ab8;
+    --outline-color: #d6d6d6;
+    --dongker-color: #1b2a4e;
+    --black-1-color: #000000;
+    --black-2-color: #323232;
+    --black-3-color: #8e8e8e;
+    --hiro-color: #f9fbfd;
+    --footer-color: #f3f7fb;
+    --background-danger-color: #fff8f8;
+    --background-primary-color: #f9fbfd;
+    --danger-color: #fd5454;
+    --success-color: #00db93;
+    --warning-color: #ffaa00;
+    --warninglight-color: #fff1d6;
+}
+
+*,
+html,
+body {
+    font-family: 'Inter';
+}
+
+/*-----------------------------------------
+* Button 
+ ------------------------------------------*/
+.btn {
+    padding: 16px 28px;
+    border-radius: 10px !important;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    border: none;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+/*-----------------------------------------
+* Elevation 
+ ------------------------------------------*/
+.shadow-light-lg {
+    box-shadow: 0 1.5rem 4rem rgba(22, 28, 45, .05) !important;
+}
+
+/*-----------------------------------------
+* Card 
+ ------------------------------------------*/
+.card {
+    overflow: hidden !important;
+}
+
+.card.card-template {
+    background-color: var(--hiro-color);
+    border: none;
+    border-radius: 8px;
+    transition: 0.5s;
+    color: var(--thin-color) !important;
+}
+
+.card.card-template:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color) !important;
+}
+
+
+.card-template h5 {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+/*-----------------------------------------
+* padding utlities
+ ------------------------------------------*/
+.pb-25 {
+    padding-bottom: 25px;
+}
+
+.pb-5 {
+    padding-bottom: 50px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.pb-150 {
+    padding-bottom: 150px;
+}
+
+.pb-200 {
+    padding-bottom: 200px;
+}
+
+.pb-250 {
+    padding-top: 250px;
+}
+
+.pt-25 {
+    padding-top: 25px;
+}
+
+.pt-5 {
+    padding-top: 50px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pt-150 {
+    padding-top: 150px;
+}
+
+.pt-200 {
+    padding-top: 200px;
+}
+
+.pt-250 {
+    padding-top: 250px;
+}
+
+/*-----------------------------------------
+* margin utlities
+ ------------------------------------------*/
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.mb-150 {
+    margin-bottom: 150px;
+}
+
+.mb-200 {
+    margin-bottom: 200px;
+}
+
+.mb-250 {
+    margin-bottom: 250px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-150 {
+    margin-top: 150px;
+}
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+.mt-250 {
+    margin-top: 250px;
+}
+
+/*-----------------------------------------
+* Navbar 
+ ------------------------------------------*/
+
+.navbar {
+    padding: 16px 0;
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: var(--black-2-color);
+    margin-left: 35px;
+}
+
+/*-----------------------------------------
+* Section Hero 
+ ------------------------------------------*/
+section.hero {
+    padding: 78px 0;
+}
+
+.headline-hero {
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 148.02%;
+    color: var(--black-1-color);
+    max-width: 767px;
+    margin: 0 auto;
+}
+
+.headline-hero span {
+    color: var(--primary-color);
+}
+
+.description-hero {
+    max-width: 647px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+    color: var(--thin-color);
+}
+
+/*-----------------------------------------
+* Section Template 
+ ------------------------------------------*/
+
+.headline-template {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: var(--black-2-color);
+}
+
+.description-template {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: var(--thin-color);
+}
+
+/*-----------------------------------------
+* Footer 
+ ------------------------------------------*/
+footer {
+    padding: 20px 0;
+    border-top: 1px solid var(--secondary-color);
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--black-3-color);
+}
+
+footer a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+@media (max-width: 991.98px) {
+
+    /*-----------------------------------------
+    * Navbar 
+    ------------------------------------------*/
+    .nav-link {
+        font-size: 14px;
+        line-height: 21px;
+        margin-left: 0;
+    }
+
+    /*-----------------------------------------
+    * Section Hero 
+     ------------------------------------------*/
+    .headline-hero {
+        font-size: 33px;
+    }
+}
